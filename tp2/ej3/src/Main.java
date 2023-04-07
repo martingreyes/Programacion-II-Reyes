@@ -42,14 +42,5 @@ public class Main {
         } catch (Exception e) {
             System.out.println("\n" + e);
         }
-
-
-//        System.out.println("\nEl primer elemento es: " + empleados.obtenerPrimero());
-//
-//        System.out.println("\nEl último elemento es: " + empleados.obtenerUltimo());
-//
-//        empleados.eliminarEnPosicion(1);
-//
-//        System.out.println("\nLista nueva: " + empleados.obtenerLista());
     }
 }
