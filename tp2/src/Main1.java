@@ -3,7 +3,7 @@
 import ej1a.HiloThread;
 import ej1b.HiloRunnable;
 
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
 
         HiloThread hiloThread1 = new HiloThread("Hilo1");

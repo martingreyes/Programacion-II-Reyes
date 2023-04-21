@@ -9,7 +9,6 @@ public class HiloRunnable implements Runnable{
     private String nombre;
     private int iteraciones;
     private int demora;
-
     public HiloRunnable() {
 
         this.nombre = "hiloRunnable";

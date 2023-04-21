@@ -35,6 +35,4 @@ public class HiloThread extends Thread{
         System.out.println("\n" + nombre + " muriendo ...\n");
     }
 
-
-
 }
