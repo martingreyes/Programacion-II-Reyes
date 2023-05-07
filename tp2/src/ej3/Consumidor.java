@@ -26,7 +26,7 @@ public class Consumidor implements Runnable {
                 }
             }
 
-            System.out.println("Hilo consumidor " + this.nombre + " :  " + valor + "! = " + resultado);
+            System.out.println("Hilo consumidor " + this.nombre + " :  " + numero + "! = " + resultado);
 
             try {
                 Thread.sleep(5000);

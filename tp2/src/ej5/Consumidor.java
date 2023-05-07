@@ -32,10 +32,11 @@ public class Consumidor implements Callable<String> {
                 }
             }
             StringBuffer sb = new StringBuffer();
-            sb.append("Hilo consumidor " + this.nombre + " :  " + valor + "! = " + resultado);
+            sb.append("Hilo consumidor " + this.nombre + " :  " + numero + "! = " + resultado);
             if (resultado > 30000) {
                 sb.append(" . Resultado mayor a 30000");
             }
+            System.out.println(sb);
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {

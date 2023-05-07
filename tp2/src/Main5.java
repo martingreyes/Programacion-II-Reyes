@@ -1,6 +1,6 @@
-import ej3.Almacenamiento;
-import ej3.Consumidor;
-import ej3.Productor;
+import ej5.Almacenamiento;
+import ej5.Consumidor;
+import ej5.Productor;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
@@ -13,7 +13,7 @@ import java.util.concurrent.Future;
 public class Main5 {
     public static void main(String[] args) {
 
-        ExecutorService executorService = Executors.newFixedThreadPool(1);
+        ExecutorService executorService = Executors.newFixedThreadPool(2);
         Almacenamiento almacenamiento = new Almacenamiento();
 
         Productor productor = new Productor(almacenamiento);
@@ -28,6 +28,7 @@ public class Main5 {
                 throw new RuntimeException(e);
             }
         }
+
         try {
             System.out.println("Resultado de la ejecución: "+resultado.get());
         } catch (InterruptedException e) {
