@@ -1,0 +1,10 @@
+server:
+  port: 8080
+martin:
+  url: http://martin.com
+  puerto: 8080
+  pers:
+    nombre: bruno
+    apellido: diaz
+    codigo: 1
+ 
