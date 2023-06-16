@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Data
 @Configuration
 @ConfigurationProperties(prefix = "martin", ignoreUnknownFields = true)
-public class PruebaConfiguration {
+public class PersonaConfiguration {
     protected String url;
     protected String puerto;
     protected Persona pers;

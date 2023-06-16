@@ -14,7 +14,6 @@ public class PersonaMemoriaService implements PersonaRepositorio {
     protected Map<Integer, Persona> personas;
 
     public PersonaMemoriaService() {
-
         this.personas = new HashMap<>();
     }
 
